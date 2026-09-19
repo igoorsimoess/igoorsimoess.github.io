@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-	title: "Igor Simões — Designer & Developer",
-	description: "The portfolio of Igor Simões, an independent designer and developer.",
+	title: "Igor Simões",
+	description: "The portfolio of Igor Simões",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
