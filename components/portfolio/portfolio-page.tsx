@@ -49,7 +49,7 @@ export function PortfolioPage() {
 
 						<div className="portrait-wrap" aria-label="Portrait of Igor Simões">
 							<div className="portrait-ring">
-								<div className="portrait-photo"><Image src={portraitSource} alt="Igor Simões" fill className="portrait-image" priority sizes="(max-width: 720px) 200px, 280px" /></div>
+								<div className="portrait-photo"><Image src={portraitSource} alt="Igor Simões" fill className="portrait-image" priority sizes="(max-width: 720px) 200px, 280px" unoptimized /></div>
 							</div>
 						</div>
 					</section>
