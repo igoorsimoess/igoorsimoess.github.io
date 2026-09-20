@@ -1,6 +1,6 @@
-export type Language = "en" | "pt-br" | "fr";
+export type Language = "en" | "pt-br" | "fr" | "es";
 
-const languages: Language[] = ["en", "pt-br", "fr"];
+const languages: Language[] = ["en", "pt-br", "fr", "es"];
 const languageChangeEvent = "portfolio-language-change";
 
 export function subscribeToLanguage(callback: () => void) {

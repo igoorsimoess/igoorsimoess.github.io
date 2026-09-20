@@ -4,6 +4,7 @@ const languageOptions: Array<{ value: Language; label: string }> = [
 	{ value: "en", label: "EN" },
 	{ value: "pt-br", label: "PT-BR" },
 	{ value: "fr", label: "FR" },
+	{ value: "es", label: "ES" },
 ];
 
 type LanguageSwitchProps = {

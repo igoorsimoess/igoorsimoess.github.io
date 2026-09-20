@@ -19,4 +19,10 @@ export const introductionByLanguage: Record<Language, readonly string[]> = {
 		"Je m’intéresse à l’économie appliquée aux inégalités sociales et je cherche à comprendre les facteurs qui influencent l’allocation des ressources publiques à l’éducation, grâce à l’apprentissage par renforcement multi-agents et à la théorie des jeux.",
 		"Je suis passionné par la voile, les voitures et la photographie.",
 	],
+	es: [
+		"Hola, soy Igor Simões, de Parahyba, Brasil, donde sale el sol primero en todas las Américas.",
+		"Soy ingeniero de software especializado en sistemas distribuidos e ingeniería de IA. Ayudo a startups en sus primeras etapas a escalar y construir bases sólidas.",
+		"Me interesa la economía aplicada a la desigualdad social y estudio los factores que influyen en la asignación de recursos públicos para la educación mediante aprendizaje por refuerzo multiagente y modelos basados en teoría de juegos.",
+		"Me apasionan la navegación a vela, los coches y la fotografía.",
+	],
 };
