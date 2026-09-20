@@ -66,10 +66,11 @@ export function PortfolioPage() {
 						</div>
 					</section>
 
-					<div className="quick-links" aria-label="Contact links">
+					<div className="quick-links" aria-label="Contact and company links">
 						<a className="icon-button" href="https://www.linkedin.com/in/igorssimoes" target="_blank" rel="noreferrer" aria-label="LinkedIn"><LinkedInIcon /></a>
 						<a className="icon-button" href="https://github.com/igoorsimoess" target="_blank" rel="noreferrer" aria-label="GitHub"><GitHubIcon /></a>
 						<a className="icon-button" href="mailto:igor.s.simoes@gmail.com" aria-label="Email Igor Simões"><GmailIcon /></a>
+						<a className="icon-button peacore-button" href="https://peacore.com.br/" target="_blank" rel="noreferrer" aria-label="Peacore"><span className="peacore-logo" aria-hidden="true" /></a>
 						<Drawer swipeDirection="right">
 							<DrawerTrigger render={<a className="icon-button" href="#resume" aria-label="Open résumé" />}>cv</DrawerTrigger>
 							<DrawerContent>
